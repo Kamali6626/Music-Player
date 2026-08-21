@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:500px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+#cover{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    border-radius:15px;
+    display:block;
+    margin:15px auto;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.song-info{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+#progress{
+    width:100%;
+    margin:15px 0;
+}
+
+.controls{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.volume{
+    margin:20px 0;
+}
+
+.volume input{
+    width:100%;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th,
+table td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+tbody tr{
+    cursor:pointer;
+}
+
+tbody tr:hover{
+    background:#eee;
+}
